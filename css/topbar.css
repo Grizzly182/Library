@@ -1,0 +1,48 @@
+.toppanel {
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 200, 255, 1),
+      rgba(255, 105, 180),
+      rgba(200, 56, 255, 1)
+  );
+overflow: hidden;
+width: 100%;
+height: 80px;
+justify-content: center;
+
+}
+body {margin: 0;}
+#logo img{
+margin-left: 0;
+position:relative;
+float: left;
+padding: 0 0;
+height: 50px ;
+width: 130px;
+align-items: left;
+align-content: top;
+align-items: top;
+}
+#button {
+  margin-right: 2;
+  float:right;
+  position: relative;
+color: #ecebeb;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+align-items: left;
+}
+#button img{
+position:relative;
+padding: 0 0;
+height: 25px;
+width: 25px;
+align-items: left;
+align-content: center;
+align-items: center;
+}
+.toppanel a :hover{
+  color: rgba(255, 105, 180, 1);
+}
